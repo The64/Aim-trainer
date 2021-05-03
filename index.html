@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+
+    <title>Aim trainer</title>
+</head>
+<body class="body">
+    
+    <div class="menu-container">
+
+        <h1>AIM TRAINER</h1>
+
+        <div class="difficulty-container">
+
+            <h2>DIFFICULTY</h2>
+            <select  class="difficulty">
+                <option value="150" class="options easy">Easy</option>
+                <option value="100" class="options normal">Normal</option>
+                <option value="50" class="options hard">Hard</option>
+                <option value="25" class="options impossible">Impossible</option>
+            </select>
+
+        </div>
+
+        <div class="top-score-container">
+
+            <h1>TOP SCORE</h1>
+            <h2 class="top-score">EASY      <span class="top-easy"      >0</span></h2>
+            <h2 class="top-score">NORMAL    <span class="top-normal"    >0</span></h2>
+            <h2 class="top-score">HARD      <span class="top-hard"      >0</span></h2>
+            <h2 class="top-score">IMPOSSIBLE<span class="top-impossible">0</span></h2>
+
+        </div>
+
+        <button class="btn-play">PLAY</button>
+
+        <h5 id="tip">Tip: It's better to play in full screen (press F11)</h5>
+
+    </div>
+
+    <div class="show-score-container">
+        <h2 class="show-score">0</h2>
+    </div>
+
+    <div class="targets-start">CLICK ME TO START</div>
+    <div class="targets-diana"></div>
+
+    <div class="minimum-resolution">SORRY YOU CAN'T PLAY AT THIS RESOLUTION</div>
+
+    <div class="count-down">
+
+        <h2 class="seconds aaa">59</h2>
+        <span>.</span>
+        <h2 class="milliseconds aaa">99</h2>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
